@@ -1,0 +1,4 @@
+-- Query orders where the amount is NOT BETWEEN 5000 and 10000
+SELECT *
+FROM ORDERS
+WHERE amount NOT BETWEEN 5000 AND 10000;
